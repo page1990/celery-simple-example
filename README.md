@@ -13,7 +13,7 @@ celery能很好的解决上面面临的问题，因为他是一个分布式的�
 
 这些东西了解以后，现在就可以模拟下我们刚才情况，这里我画了一个拓扑图来，由于我这里的可用机器不多，就把这些机器放在同一个机器上面，道理是一样的：
 
-![celery路由图](https://github.com/page1990/celery-simple-example/blob/master/路由图.png)
+![celery路由图](./route.png)
 
 在上面的图里面，有一个类型是topic的交换机，通过绑定相应的key到三个不同的队列中，分别是default队列，compute队列，result队列。
 
