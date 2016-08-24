@@ -175,3 +175,6 @@ celery worker -Q compute --hostname=computeN -l debug
 Celery这个东西还是很强大的，因为他是一个基于python开发的分布式系统，并且可以使用很多broker，比如数据库，redis,不过官方的推荐是rabbimq这个强大的消息队列服务。
 
 在实际的应用中，我们还可以自定义队列，这样，应用的任务可以在不同的机器上运行，横向扩展能力很强大。
+
+
+<a href="https://github.com/rduplain/celery-simple-example">原文链接</a>
